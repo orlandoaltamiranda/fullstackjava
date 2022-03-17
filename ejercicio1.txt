@@ -1,0 +1,24 @@
+// 1- Primero creamos la carpeta "fullstackjava" y abrimos la terminal desde esa ubicación de carpeta. 
+// 2- Luego ingresamos el comando "git init" para iniciar el repositorio en la carpeta "fullstackjava"
+// 3- Luego un "git status" para ver el estado de el repositorio, si hubo modificacions o archivos sin rastrear. git status  
+// 4- Creamos el archivo "contenidos.txt" dentro de nuestra carpeta.  Y le agregamos el siguiente contenido:
+	Módulo 1: Programación en Java
+	Módulo 2: Lenguaje de Consultas a una Base de Datos
+	Módulo 3: Fundamentos de Desarrollo Web
+	
+// 5- Para validar que esté cargado usamos "git status" y aparece el archivo como "Untracked files:". Luego para ver el tamaño del archivo. usamos "ls -lh"
+	Y nos muestra la siguiente información:
+	total 4.0K
+	-rw-r--r-- 1 orlando orlando 128 Mar 14 18:11 contenidos.txt
+	-rw-r--r-- 1 orlando orlando   0 Mar 14 17:41 ejercicio1.txt
+
+// 6- Para añadir el repositorio usamos "git add ." 
+// 7- Creamos el commit, con el comando "git commit -m “Primera versión del temario subida a repositorio”
+// 8- Añadimos una nueva linea al archivo "contenidos.txt"
+	Módulo 4: Desarrollo de aplicaciones web dinámicas con Java”
+// 9- Para verificar presionamos "git status" y nos indica que "contenidos.txt tiene cambios realizados" y aparece como: "modified:"
+// 10- Creamos el nuevo commit, con el comando "git commit -m “Versión actualizada del contenido”
+// 11- Para ver el registro de cambios de repositorio usamos "git log" y nos aparecen 2 commits.
+// 12- Validamos nuevamente el estado del repositorio con "git status" y nos muestra que que no hay commits nuevos
+	On branch master
+	nothing to commit, working tree clean
